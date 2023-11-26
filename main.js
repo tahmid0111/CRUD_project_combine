@@ -21,9 +21,9 @@ mongoose.connect(DB_Port)
 app.use('/api/v1', router)
 
 
-// wrong url goes here
-app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname,'client', 'my-app', 'index.html'))
-})
+
+// app.get('*', (req, res) => {
+//     res.sendFile(path.resolve(__dirname,'client', 'my-app', 'index.html'))
+// })
 
 module.exports = app

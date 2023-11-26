@@ -3,44 +3,43 @@ const mongoose=require('mongoose')
 const taskSchema = mongoose.Schema({
     firstName: {
         type: String,
-        required: true
+        // required: true
     },
     lastName: {
         type: String,
-        required: true
+        // required: true
     },
     gender: {
         type: String,
-        required: true
+        // required: true
     },
     dateOfBirth: {
         type: Date,
-        required: true
+        // required: true
     },
     nationality: {
         type: String,
-        required: true
+        // required: true
     },
     address: {
         type: String,
-        required: true
+        // required: true
     },
     Email: {
         type: String,
-        required: true
+        // required: true
     },
     phone: {
         type: Number,
-        required: true
+        // required: true
     },
     admissionDate: {
         type: Date,
         default: Date.now(),
-        required: true
     },
     courses: {
         type: String,
-        required: true
+        // required: true
     }
 
 
